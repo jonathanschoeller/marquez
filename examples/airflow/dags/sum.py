@@ -1,5 +1,5 @@
 from airflow import DAG
-from airflow.providers.postgres.operators.postgres import PostgresOperator
+from airflow.operators.postgres_operator import PostgresOperator
 from airflow.utils.dates import days_ago
 
 default_args = {
